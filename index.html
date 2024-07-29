@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> CV page | Резюме </title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+
+
+		<header class="header">
+			<img class="avatar" src="img/andr.jpg" alt="фото">
+			<h1 class="header__title">
+				Andrey Batanov | CV
+			</h1>
+			<h2 class="header__subtitle">
+				Frontend developer
+			</h2>
+		</header>
+		<main>
+			<section class="skills">
+				<h2>My Skills</h2>
+				<details>
+					<summary>Skills List</summary>
+					<ol>
+						<li>1. HTML</li>
+						<li>2. CSS</li>
+						<li>3. JavaScript</li>
+						<li>4. React</li>
+						<li>5. TypeScript</li>
+					</ol>
+				</details>
+			</section>
+			<article class="article">
+				<h4 class="article__title">
+					Short article about me:
+				</h4>
+				<p class="article__content">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam illum maxime unde temporibus itaque
+					architecto
+					necessitatibus repellendus tempore, molestiae, dolor autem consequuntur ab rem adipisci laudantium incidunt
+					commodi quia perspiciatis labore. Saepe aperiam quasi eaque quam cum suscipit. Fuga consequatur quia iusto
+					distinctio nihil cumque. Obcaecati modi non dolorem dolor!
+				</p>
+			</article>
+			<hr class="separator">
+			<section class="gallery">
+				<h2 class="gallery__title">
+					My Gallery
+				</h2>
+				<img class="gallery__img" src="https://placehold.co/250x250" alt="img gallery">
+				<img class="gallery__img" src="https://placehold.co/250x250" alt="img gallery">
+				<img class="gallery__img" src="https://placehold.co/250x250" alt="img gallery">
+			</section>
+
+			<hr class="separator">
+
+			<section class="video">
+				<h2 class="video__title">
+					My Video
+				</h2>
+				<iframe class="video__size" src="https://www.youtube.com/embed/33Ey3c0Y5Ac"
+					title="03. Frontender[1.0] - JavaScript. Переменные (variables). var, let, const"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+				</iframe>
+			</section>
+
+			<hr class="separator">
+			<section class="hobbies">
+				<h2 class="hobbyis__title">
+					My Hobby
+				</h2>
+				<details>
+					<summary>Hobbies List</summary>
+					<ol>
+						<li>Skiing</li>
+						<li>Video editing</li>
+						<li>Audio books</li>
+					</ol>
+				</details>
+			</section>
+
+			<hr class="separator">
+			<section class="education">
+				<h2 class="education__title">
+					My Education
+				</h2>
+				<table class="education__table">
+					<thead>
+						<tr>
+							<th>School / University</th>
+							<th>Profession</th>
+							<th>Year</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>IT shool 1</td>
+							<td>Angular Developer</td>
+							<td>2019</td>
+						</tr>
+						<tr>
+							<td>IT shool 2</td>
+							<td>React Developer</td>
+							<td>2020</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<hr class="separator">
+			<section class="quote">
+				<h2 class="video__title">
+					Цитата
+				</h2>
+				<blockquote>
+					Действия - единственный путь к успеху!
+				</blockquote>
+			</section>
+
+			<section class="interaction">
+				<h2 class="video__title">
+					Отправка данных
+				</h2>
+				<form class="form" target="_blank" action="mailto:batanovandriy@yandex.ru" method="post">
+					<fieldset class="fieldset">
+						<legend class="form__text">Required Fileds</legend>
+						<label class="form__label form__text" for="fistNameID">FistName:</label>
+						<input class="form__control" type="text" name="fistName" id="fistNameID" placeholder="type your first name"
+							required>
+
+						<label class="form__label form__text" for="lastNameID">LastName:</label>
+						<input class="form__control" type="text" name="lastName" id="lastNameID" placeholder="type your last name"
+							required>
+
+						<label class="form__label form__text" for="emailID">E-mail:</label>
+						<input class="form__control" type="email" name="mail" id="emailID" placeholder="type your email" required>
+					</fieldset>
+
+					<label class="form__label form__text" for="questionID">Your questions:</label>
+					<textarea class="form__control form__description" name="question" id="questionID" cols="20" rows="5"
+						placeholder="type your question..."></textarea>
+
+					<!-- <input type="submit" value="submit"> -->
+
+					<button class="form__submit form__control" type="submit">submit btn</button>
+				</form>
+			</section>
+		</main>
+		<footer>
+			<address class="address">
+				<a href="mailto:it_proger@mail.ru">it_proger@mail.ru</a>
+
+				<a href="tel:+998941234567">+998941234567</a>
+			</address>
+			<div class="text-reflection">
+				<p>&copy; Андрей Батанов</p>
+				<p class="reflection">&copy; Андрей Батанов</p>
+			</div>
+
+		</footer>
+	</div>
+</body>
+
+</html>
